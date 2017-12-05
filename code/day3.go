@@ -71,9 +71,9 @@ func Day3(num int) (int){
 
 }
 
-func Day3part2(num,size int) {
-	arr := make([][]int,size)
-	for i,j := size/2,size/2; i*j<size*size; {
-		
-	}
-}
+//func Day3part2(num,size int) {
+//	arr := make([][]int,size)
+//	for i,j := size/2,size/2; i*j<size*size; {
+//
+//	}
+//}

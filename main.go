@@ -1,10 +1,17 @@
 package main
 
 import (
-	"github.com/fluffybucket/adventodcode/code"
+	"github.com/FluffyBucket/AdventOfCode17/code"
+	"time"
+	"fmt"
 )
 
 func main() {
 	//fmt.Printf("distance: %d",code.Day3(325489))
-	code.Day2part2()
+	start := time.Now()
+	code.Day4part2()
+	end := time.Since(start)
+
+	fmt.Println(end)
+
 }
